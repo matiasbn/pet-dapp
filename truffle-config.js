@@ -23,8 +23,11 @@
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
+const path = require('path');
 
 module.exports = {
+  contracts_build_directory: path.join(__dirname, 'src/contracts'),
+
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle
@@ -43,9 +46,9 @@ module.exports = {
     // options below to some value.
     //
     development: {
-      host: "127.0.0.1", // Localhost (default: none)
+      host: '127.0.0.1', // Localhost (default: none)
       port: 8545, // Standard Ethereum port (default: none)
-      network_id: "*", // Any network (default: none)
+      network_id: '*', // Any network (default: none)
     },
 
     // Another network with more advanced options...

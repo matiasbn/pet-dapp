@@ -45,7 +45,7 @@ const Owner = (props) => {
 Owner.propTypes = {
   name: PropTypes.string.isRequired,
   lastName: PropTypes.string.isRequired,
-  idNumber: PropTypes.string.isRequired,
+  idNumber: PropTypes.number.isRequired,
   phoneNumber: PropTypes.string.isRequired,
   address: PropTypes.string.isRequired,
 };
