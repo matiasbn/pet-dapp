@@ -2,6 +2,7 @@
   "name": "pet-dapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://matiasbn.github.io/pet-dapp",
   "dependencies": {
     "@drizzle/react-plugin": "^1.5.1",
     "@testing-library/jest-dom": "^4.2.4",
