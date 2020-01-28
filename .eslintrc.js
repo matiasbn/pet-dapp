@@ -2,6 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
+    mocha: true,
+    "truffle/globals": true
   },
   extends: [
     'plugin:react/recommended',
@@ -20,6 +22,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    'truffle',
   ],
   rules: {
     "react/jsx-filename-extension": 0,
