@@ -1,6 +1,4 @@
 const PetDapp = artifacts.require('PetDapp');
-const Web3 = require('web3');
-
 contract('PetDapp', (accounts) => {
   let petDapp;
 
@@ -21,12 +19,8 @@ contract('PetDapp', (accounts) => {
     bloodType: 'SneakersThief',
   };
   const petOwner = {
-    name: 'Matias',
-    lastName: 'Barrios',
-    idNumber: '12345678',
+    petIdNumber: 169406634,
     phoneNumber: '+56912345678',
-    ownerAddress: 'Avenida Siempre Viva 1234',
-    ownerId: 1234,
   };
   const veterinarian = {
     vetId: 5678,
